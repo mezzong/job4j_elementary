@@ -20,4 +20,19 @@ public class PointTest {
         double result = point1.distance3d(point2);
         Assert.assertEquals(expected, result, 0.01);
     }
+
+    @Test
+    public void when555777then2() {
+        int x1 = 5;
+        int y1 = 5;
+        int z1 = 5;
+        int x2 = 7;
+        int y2 = 7;
+        int z2 = 7;
+        double expected = 3.46;
+        Point point1 = new Point(x1, y1, z1);
+        Point point2 = new Point(x2, y2, z2);
+        double result = point1.distance3d(point2);
+        Assert.assertEquals(expected, result, 0.01);
+    }
 }

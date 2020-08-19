@@ -27,7 +27,7 @@ public class Point {
     public double distance3d(Point that) {
         double xSqr = Math.pow(that.x - this.x, 2);
         double ySqr = Math.pow(that.y - this.y, 2);
-        double zSqr = Math.pow(that.y - this.y, 2);
+        double zSqr = Math.pow(that.z - this.z, 2);
         double result = sqrt(xSqr + ySqr + zSqr);
         return result;
     }
